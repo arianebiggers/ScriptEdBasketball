@@ -1,3 +1,39 @@
 body {
     font-family: Helvetica;
+    background-color:#CC66CC;
+}
+#player-one-score {
+    font-style: Italic;
+    color: blue;
+}
+#player-two-score {
+    font-style: Bold;
+    color: Red;
+}
+.player-one-name {
+    color: Yellow;
+    border-style: double;
+    border-color: blue;
+}
+.player-two-name {
+    color: blue;
+    border-style: double;
+    border-color: yellow;
+}
+#img1 {
+    height: 390;
+    box-shadow:40px 30px 60px #111;
+    border-style:groove;
+    border-color:#99FF99;
+}
+#img2 {
+    height:329;
+    box-shadow:40px 30px 60px #111;
+    border-style:groove;
+    border-color:#99FF99;
+}
+button {
+    margin: 15px 20px 10px;
+    color:navy;
+    background-color:gold;
 }
